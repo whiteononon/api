@@ -17,7 +17,7 @@ class CreateReviewsTable extends Migration
             $table->increments('id');
             $table->integer('product_id')->unsigned()->index();
             $table->string('customer');
-            $table->text('name');
+            $table->text('review');
             $table->integer('star');
             $table->timestamps();
 
